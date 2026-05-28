@@ -69,7 +69,9 @@ You type a stock symbol. The system returns:
 
 ---
 
-## ArchitectureUser → Netlify Frontend → Render FastAPI Backend
+## Architecture
+
+User → Netlify Frontend → Render FastAPI Backend
 ↓
 yfinance data fetch
 ↓

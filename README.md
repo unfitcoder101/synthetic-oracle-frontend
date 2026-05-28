@@ -32,21 +32,6 @@ You type a stock symbol. The system returns:
 - Returns ranked candidates sorted by setup quality score
 - Runs in under 3 minutes on free-tier cloud
 
-### Decision Engine (13 layers)
-- Trend alignment filter (Minervini Trend Template)
-- Stage analysis filter (Weinstein Stage 2 vs Stage 4)
-- Weekly timeframe filter (Elder Triple Screen)
-- Sector rotation filter
-- Relative strength filter
-- Market breadth filter (Zweig)
-- Institutional flow filter
-- ADX exhaustion filter
-- Liquidity filter
-- Fundamental quality filter
-- Livermore pivot filter
-- Darvas Box breakout filter
-- 52-Week high breakout filter
-
 ### Trade Plan Calculator
 - Van Tharp R-multiple position sizing
 - Dynamic trailing stop levels
@@ -93,14 +78,12 @@ JSON response → Dashboard render
 
 | Endpoint | Description |
 |----------|-------------|
-| `GET /predict?symbol=AAPL` | Full signal for one symbol |
-| `GET /morning-scan` | Fast pre-filter scan of 500+ symbols |
-| `GET /scan` | Full parallel scan with A+ signals |
-| `GET /health` | System status and model readiness |
-| `GET /backtest?symbol=AAPL` | Walk-forward backtest results |
-| `GET /expectancy?symbol=AAPL` | Van Tharp R-multiple stats |
-
-Backend live at: https://stocksignal-backend-mcfs.onrender.com
+| `GET /predict?symbol=AAPL` | Signal analysis |
+| `GET /morning-scan` | Market scan |
+| `GET /scan` | Full scan |
+| `GET /health` | System status |
+| `GET /backtest?symbol=AAPL` | Backtest |
+| `GET /expectancy?symbol=AAPL` | Expectancy stats |
 
 ---
 
@@ -124,12 +107,6 @@ Backend live at: https://stocksignal-backend-mcfs.onrender.com
 
 ---
 
-## Backend Repository
-
-The ML engine, FastAPI backend, and training pipeline are in a separate repository:
-https://github.com/unfitcoder101/ai-stock-analyzer-clean
-
----
 
 ## Disclaimer
 

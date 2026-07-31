@@ -8,8 +8,8 @@ A production-grade quantitative trading dashboard that surfaces AI-generated sto
 
 ## What it does
 
-You type a stock symbol. The system returns:                   
-
+You type a stock symbol. The system returns:                            
+                  
 - **Signal** — BUY / HOLD / SELL with confidence score                    
 - **Trade Plan** — exact entry price, stop loss, target, R:R ratio, position size
 - **A+ Setup Score** — ranks setup quality 0–10 based on multi-factor confluence

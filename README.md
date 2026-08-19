@@ -6,7 +6,7 @@ A production-grade quantitative trading dashboard that surfaces AI-generated sto
 
 ---
 
-## What it does
+## What it does                 
 
 You type a stock symbol. The system returns:                            
                   
@@ -41,7 +41,7 @@ You type a stock symbol. The system returns:
 ---
 
 ## Tech Stack
-
+                        
 | Layer | Technology |
 |-------|-----------|
 | Frontend | Vanilla HTML, CSS, JavaScript |
@@ -86,7 +86,7 @@ JSON response → Dashboard render
 | `GET /expectancy?symbol=AAPL` | Expectancy stats |
 
 ---
-
+                          
 ## Sample Output
 
 ```json

@@ -32,9 +32,9 @@ You type a stock symbol. The system returns:
 - Returns ranked candidates sorted by setup quality score
 - Runs in under 3 minutes on free-tier cloud
 
-### Trade Plan Calculator
+### Trade Plan Calculator               
 - Van Tharp R-multiple position sizing
-- Dynamic trailing stop levels
+- Dynamic trailing stop levels              
 - Pyramid entry signals at +10% and +20%
 - Risk per trade: configurable (default 2-3% of capital)
 

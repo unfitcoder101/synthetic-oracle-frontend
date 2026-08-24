@@ -40,22 +40,22 @@ You type a stock symbol. The system returns:
 
 ---
 
-## Tech Stack
+## Tech Stack         
                         
 | Layer | Technology |
-|-------|-----------|
-| Frontend | Vanilla HTML, CSS, JavaScript |
+|-------|-----------|          
+| Frontend | Vanilla HTML, CSS, JavaScript |          
 | Charts | TradingView Widget |
 | AI Analysis | Groq API (LLaMA 3.3 70B) |
 | Backend | FastAPI, Python |
 | ML | scikit-learn, XGBoost, SHAP |
-| Data | yfinance |
+| Data | yfinance |     
 | Deployment | Netlify (frontend), Render (backend) |
-
+                
 ---
 
 ## Architecture
-
+                  
 User → Netlify Frontend → Render FastAPI Backend
 ↓
 yfinance data fetch

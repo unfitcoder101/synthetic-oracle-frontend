@@ -6,10 +6,10 @@ A production-grade quantitative trading dashboard that surfaces AI-generated sto
 
 ---
 
-## What it does                 
+## What it does                              
 
 You type a stock symbol. The system returns:                            
-                  
+                               
 - **Signal** — BUY / HOLD / SELL with confidence score                    
 - **Trade Plan** — exact entry price, stop loss, target, R:R ratio, position size
 - **A+ Setup Score** — ranks setup quality 0–10 based on multi-factor confluence
@@ -38,11 +38,11 @@ You type a stock symbol. The system returns:
 - Pyramid entry signals at +10% and +20%
 - Risk per trade: configurable (default 2-3% of capital)
 
----
+---                  
 
-## Tech Stack         
+## Tech Stack                        
                         
-| Layer | Technology |
+| Layer | Technology |                       
 |-------|-----------|          
 | Frontend | Vanilla HTML, CSS, JavaScript |          
 | Charts | TradingView Widget |
@@ -52,7 +52,7 @@ You type a stock symbol. The system returns:
 | Data | yfinance |     
 | Deployment | Netlify (frontend), Render (backend) |
                 
----
+---               
 
 ## Architecture
                   

@@ -26,19 +26,19 @@ You type a stock symbol. The system returns:
 - Ensemble ML model — XGBoost, Random Forest, Gradient Boosting, Decision Tree, Logistic Regression
 - 74% validation accuracy on swing trade labels (5% target / 3% stop / 10-day window)
 - 22 engineered features — RSI, ADX, Bollinger Bands, momentum, volatility, MFI, Stochastic, Williams %R, Darvas Box, Livermore pivots, 52W breakout, gap patterns
-
+                 
 ### Morning Scan
 - Scans 500+ symbols in parallel (20 workers, ThreadPoolExecutor)
 - Returns ranked candidates sorted by setup quality score
 - Runs in under 3 minutes on free-tier cloud
 
-### Trade Plan Calculator               
+### Trade Plan Calculator                                
 - Van Tharp R-multiple position sizing
 - Dynamic trailing stop levels              
 - Pyramid entry signals at +10% and +20%
 - Risk per trade: configurable (default 2-3% of capital)
 
----                  
+---                                    
 
 ## Tech Stack                        
                         

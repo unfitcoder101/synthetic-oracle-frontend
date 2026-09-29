@@ -73,9 +73,9 @@ Groq AI analysis
 JSON response → Dashboard render
 
 ---
-
+                        
 ## API Endpoints
-
+                        
 | Endpoint | Description |
 |----------|-------------|
 | `GET /predict?symbol=AAPL` | Signal analysis |
@@ -86,13 +86,13 @@ JSON response → Dashboard render
 | `GET /expectancy?symbol=AAPL` | Expectancy stats |
 
 ---
-                          
+                                                          
 ## Sample Output
 
 ```json
 {
-  "symbol": "HINDALCO.NS",
-  "prediction": "BUY",
+  "symbol": "HINDALCO.NS",             
+  "prediction": "BUY",              
   "confidence": 91.3,
   "a_plus_score": 6,
   "trade_plan": {

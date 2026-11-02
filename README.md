@@ -1,13 +1,13 @@
-# Synthetic Oracle — AI Quantitative Trading Dashboard
+# Synthetic Oracle — AI Quantitative Trading Dashboard                                    
 
-> Live: https://stock-advisor-here.netlify.app
+> Live: https://stock-advisor-here.netlify.app                       
 
-A production-grade quantitative trading dashboard that surfaces AI-generated stock signals across 500+ symbols from NSE, NYSE, and NASDAQ. Built for swing traders who want institutional-grade analysis without the institutional price tag.
+A production-grade quantitative trading dashboard that surfaces AI-generated stock signals across 500+ symbols from NSE, NYSE, and NASDAQ. Built for swing traders who want institutional-grade analysis without the institutional price tag.                              
 
 ---                    
-
+                        
 ## What it does                                                          
-
+                  
 You type a stock symbol. The system returns:                                             
                                                    
 - **Signal** — BUY / HOLD / SELL with confidence score                    

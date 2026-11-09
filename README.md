@@ -73,8 +73,8 @@ Groq AI analysis
 JSON response → Dashboard render
 
 ---
-                        
-## API Endpoints
+                                                         
+## API Endpoints                       
                         
 | Endpoint | Description |
 |----------|-------------|
